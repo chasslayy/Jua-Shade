@@ -1,6 +1,6 @@
 🧩 Project Title
 
-JuaShade: A Computer Vision Pipeline for Skin Tone Analysis and Color Constancy
+# Jua-Shade: Skin Tone Detection & Computer Vision Pipeline
 
 🧠 Overview
 
