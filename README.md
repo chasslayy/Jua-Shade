@@ -1,64 +1,49 @@
-🧩 Project Title
+# 🖤 JuaShade: Inclusive Skin Tone Detection Using Computer Vision
 
-# Jua-Shade: Skin Tone Detection & Computer Vision Pipeline
+JuaShade is a computer vision project focused on **inclusive skin tone detection and classification**. The goal of this project is to explore how machine learning and image processing can be used to analyze and categorize diverse skin tones in a fair and responsible way.
 
-🧠 Overview
-
-JuaShade is a computer vision research project focused on improving fair and accurate skin tone analysis.
-Many computer vision systems misinterpret skin tones because of lighting variations, glare, and dataset bias, which can lead to inaccurate or non-inclusive results.
-
-This project introduces a modular pipeline that:
-	•	Extracts skin regions of interest (ROI)
-	•	Removes glare and reflections
-	•	Applies color constancy algorithms (Gray-World, Retinex)
-	•	Compares classical ML models (SVM, k-NN) with deep learning architectures (ResNet, EfficientNet)
-	•	Explores GAN-based preprocessing to improve tone normalization
-
-The goal is to develop a fair, inclusive, and robust system for use in dermatology, cosmetics, and AI fairness research.
-
-⸻
-
-⚙️ Tech Stack
-	•	Languages: Python
-	•	Libraries: OpenCV, scikit-image, scikit-learn, NumPy, PyTorch
-	•	Tools: Jupyter Notebook, Matplotlib
-
-## 🧱 Pipeline Overview  
-```text
-Input Image
-   ↓
-Skin ROI Extraction
-   ↓
-Glare / Reflection Removal
-   ↓
-Color Constancy Correction
-   ↓
-Feature Extraction (ML/DL)
-   ↓
-Tone Classification + Fairness Evaluation
-
-## 🚀 Setup Instructions
-
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/chasslayy/Jua-Shade.git
-cd Jua-Shade
+This project demonstrates core skills in:
+- Computer Vision  
+- Image Processing  
+- Data Classification  
+- Python & Machine Learning  
+- Ethical AI & Bias Awareness  
 
 ---
 
-### 🗂️ 6️⃣ Project Structure ✅ *(goes right after Setup Instructions)*
-This shows your folder organization. Add it right below the setup section.
+## 📌 Project Objectives
 
-```markdown
+- Detect and analyze skin tone from images  
+- Classify skin tones into labeled categories (e.g., light, tan, brown)  
+- Apply computer vision techniques for preprocessing and feature extraction  
+- Build an ethical, inclusive dataset that represents diverse skin tones  
+- Prepare the foundation for future beauty-tech and cosmetic AI applications  
+
+---
+
+## 🧠 Technologies Used
+
+- **Python 3**
+- **Google Colab**
+- **OpenCV**
+- **NumPy**
+- **Matplotlib**
+- **Scikit-learn**
+- **Pillow (PIL)**
+
+---
+
 ## 📁 Project Structure
-```text
-Jua-Shade/
-├── data/               # Raw and processed image data
-├── notebooks/          # Jupyter notebooks for experimentation
-├── src/                # Core source code
-├── results/            # Outputs, metrics, and visualizations
-├── requirements.txt
-└── README.md
+
+```bash
+JuaShade/
+├── JuaShade_SkinTone_Colab_clean.ipynb
+├── images/
+│   ├── brown_01.png
+│   ├── tan_01.png
+│   ├── light_01.png
+│   └── ...
+├── README.md
 
 ---
 
